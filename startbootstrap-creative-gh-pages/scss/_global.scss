@@ -8,6 +8,13 @@ html {
 body {
   @include serif-font;
 }
+.list{
+    color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    li{
+        padding-left: 30px;
+    }
+}
 
 hr {
   max-width: 50px;
@@ -36,6 +43,10 @@ h6 {
   @include sans-serif-font;
 }
 
+h6{
+    //kursiv
+}
+
 .bg-primary {
   background-color: $primary !important;
 }
@@ -46,6 +57,11 @@ h6 {
 
 .text-faded {
   color: fade-out($white, .3);
+}
+
+.question-mark{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 section {
@@ -76,4 +92,27 @@ img::selection {
 img::-moz-selection {
   color: $white;
   background: transparent;
+}
+
+//Eigenes CSS
+.link-white{
+    color: white;
+    font-size: 12px;
+    &:hover{
+        font-size: 14px;
+        color: #fff;
+    }
+}
+
+.h5-white{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.author-white{
+    text-align: right;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 50px;
 }

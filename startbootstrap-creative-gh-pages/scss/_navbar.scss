@@ -1,9 +1,56 @@
 // Styling for the navbar
+
+.nav-2{
+    margin-top: 64px !important;
+    background-color: brown !important;
+}
+
 #mainNav {
   border-bottom: 1px solid fade-out($gray-900, .9);
   background-color: $white;
   @include sans-serif-font;
   @include transition-all;
+
+//eigenes css
+  .main-nav{
+      text-align: center
+  }
+
+  .nav-contact a.nav-link{
+      border: 1px solid black;
+      &:hover{
+          border: 1px solid #F05F40;
+          background-color: #F05F40;
+          color: #fff !important;
+      }
+  }
+  .nav-contact a.nav-link.active{
+          border: 1px solid #f05f40;
+      }
+
+  #navMenue{
+      display: none;
+  }
+
+
+  /* Show the dropdown menu on hover */
+  .drop-down{
+      position: absolute;
+      padding: 13px 10px 13px 10px;
+        top: 0;
+        left: 45%;
+  }
+
+  .drop-down-content{
+      display: none;
+  }
+
+  .drop-down:hover .drop-down-content {display: block;}
+
+  .drop-down-content:hover {display: block;}
+
+
+  //template
   .navbar-brand {
     font-weight: 700;
     text-transform: uppercase;
@@ -58,6 +105,9 @@
     &.navbar-shrink {
       border-bottom: 1px solid fade-out($gray-900, .9);
       background-color: $white;
+      #navMenue{
+          display: block;
+      }
       .navbar-brand {
         color: $primary;
         &:focus,
