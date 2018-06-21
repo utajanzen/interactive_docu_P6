@@ -8,7 +8,7 @@
   color: fade-out($white, .3);
   text-align: left;
   font-family: 'Roboto', sans-serif;
-font-weight: 100;
+font-weight: 300;
 }
 
 
@@ -16,7 +16,7 @@ font-weight: 100;
   color: fade-out($black, .4);
   text-align: left;
   font-family: 'Roboto', sans-serif;
-font-weight: 100;
+font-weight: 300;
 }
 
 .datencheck{
@@ -68,4 +68,11 @@ font-weight: 100;
 
 	/** Unhide lightbox **/
 	display: block;
+}
+
+
+
+.carousel-control-prev-icon{
+margin-left: -170px;
+
 }
