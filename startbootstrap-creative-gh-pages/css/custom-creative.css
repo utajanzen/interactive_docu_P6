@@ -84,6 +84,13 @@ img::-moz-selection {
     font-size: 14px;
     color: #fff; }
 
+.link-black {
+  color: #000000;
+  font-size: 12px; }
+  .link-black:hover {
+    font-size: 14px;
+    color: #000000; }
+
 .h5-white {
   color: rgba(255, 255, 255, 0.7);
   font-size: 25px;
@@ -91,6 +98,11 @@ img::-moz-selection {
   padding-bottom: 20px;
   padding-top: 20px;
   font-family: 'Roboto', sans-serif; }
+
+.h5-black {
+  color: #000;
+  font-size: 20px;
+  font-weight: bold; }
 
 .h5-black {
   color: rgba(0, 0, 0, 0.6);
@@ -309,6 +321,25 @@ header.masthead {
 .personal-data-list {
   width: 600px;
   padding-left: 27%; }
+
+.survey-results {
+  padding-left: 100px;
+  padding-top: 50px; }
+
+.ban-res-2 {
+  background: url("../img/vendy/research/mosched.jpg"); }
+
+.banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: 100%; }
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .bg-concept1 {
   background-color: #216670; }
