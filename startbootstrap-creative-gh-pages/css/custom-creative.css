@@ -329,6 +329,9 @@ header.masthead {
 .ban-res-2 {
   background: url("../img/vendy/research/mosched.jpg"); }
 
+.open-codes {
+  background: url("../img/vendy/research/mosched.jpg"); }
+
 .banner {
   background-size: cover;
   background-repeat: no-repeat;
@@ -337,8 +340,17 @@ header.masthead {
 
 .parallax {
   background-attachment: fixed;
-  background-position: center;
+  background-position: center; }
+
+.background-img {
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover; }
 
 .bg-concept1 {
