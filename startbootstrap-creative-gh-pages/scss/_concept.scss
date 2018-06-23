@@ -4,6 +4,13 @@
   background-color: rgba(33,102,112,1);
 }
 
+.concept-header{
+  background-image: url('../img/vendy/concept/header.png');
+  width: 50em;
+display: block;
+  @include background-cover;
+}
+
 .text-faded2 {
   color: fade-out($white, .3);
   text-align: left;

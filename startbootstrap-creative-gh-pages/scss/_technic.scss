@@ -1,0 +1,78 @@
+
+
+.bg-concept1{
+  background-color: rgba(33,102,112,1);
+}
+
+.text-faded2 {
+  color: fade-out($white, .3);
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+font-weight: 300;
+}
+
+
+.text-muted2 {
+  color: fade-out($black, .4);
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+font-weight: 300;
+}
+
+.datencheck{
+  padding-right: 20px;
+  padding-top: 70px;
+}
+
+.datencheck2{
+  padding-left: 20px;
+  padding-top: 70px;
+}
+
+
+
+// .thumbnail {
+//   max-width: 40%;
+// }
+//
+// .italic { font-style: italic; }
+// .small { font-size: 0.8em; }
+
+// /** LIGHTBOX MARKUP **/
+//
+// .lightbox {
+// 	/** Default lightbox to hidden */
+// 	display: none;
+//
+// 	/** Position and style */
+// 	position: fixed;
+// 	z-index: 999;
+// 	width: 100%;
+// 	height: 100%;
+// 	text-align: center;
+// 	top: 0;
+// 	left: 0;
+// 	background: rgba(0,0,0,0.8);
+// }
+//
+// .lightbox img {
+// 	/** Pad the lightbox image */
+// 	max-width: 90%;
+// 	max-height: 80%;
+// 	margin-top: 2%;
+// }
+//
+// .lightbox:target {
+// 	/** Remove default browser outline */
+// 	outline: none;
+//
+// 	/** Unhide lightbox **/
+// 	display: block;
+// }
+//
+//
+//
+// .carousel-control-prev-icon{
+// margin-left: -170px;
+//
+// }
