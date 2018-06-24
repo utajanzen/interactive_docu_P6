@@ -1,8 +1,29 @@
 // Styling for the masthead/Images
-  .research-header{
-    background-image: url('../img/vendy/research/header.jpg');
-    @include background-cover;
+.research-header{
+  background-image: url('../img/vendy/research/header.jpg');
+  @include background-cover;
+}
+
+@media (min-width: 1024px){
+    .survey-results{
+      padding-left: 100px;
+      padding-top: 100px
+
+    }
+}
+
+@media (max-width: 1023px){
+    .survey-results{
+      padding-top: 70px
   }
+}
+
+.personal-data-list{
+    width: 600px;
+    padding-left: 5%;
+}
+
+.research-section{
 
   .technology-header{
     background-image: url('../img/vendy/research/interviews-dark.jpg');
@@ -30,28 +51,7 @@
   }
 
 //CSS
-  .personal-data-list{
-      width: 600px;
-      padding-left: 5%;
-  }
-
-  @media (min-width: 1024px){
-      .survey-results{
-        padding-left: 100px;
-        padding-top: 100px
-
-      }
-  }
-
-  @media (max-width: 1023px){
-      .survey-results{
-        padding-top: 70px
-    }
-  }
-
-
   .ban-res-2{
-
       background: url('../img/vendy/research/mosched.jpg');
   }
 
@@ -73,15 +73,12 @@
       height: 100vh !important;
       margin-top: 40px;
       margin-bottom: 50px;
-  }
-
-  .object-tracking-img{
-      background: url('../img/vendy/research/doggo.png');
-      height: 100vh !important;
-      margin-top: 40px;
-      margin-bottom: 50px;
+      background-repeat: no-repeat;
   }
 
   .open-codes{
      background: url('../img/vendy/research/street-dark.jpg');
   }
+
+
+}
