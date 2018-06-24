@@ -1,6 +1,6 @@
 // Styling for the masthead/Images
   .research-header{
-    background-image: url('../img/vendy/research/header.png');
+    background-image: url('../img/vendy/research/header.jpg');
     @include background-cover;
   }
 
@@ -34,6 +34,10 @@
       background: url('../img/vendy/research/mosched.jpg');
   }
 
+  .ban-res-3{
+      background: url('../img/vendy/research/opencodes.jpg');
+  }
+
   .open-codes{
-     background: url('../img/vendy/research/mosched.jpg');
+     background: url('../img/vendy/research/street-dark.jpg');
   }

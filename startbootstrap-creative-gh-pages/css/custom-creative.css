@@ -292,7 +292,7 @@ header.masthead {
       font-size: 22px; } }
 
 .research-header {
-  background-image: url("../img/vendy/research/header.png");
+  background-image: url("../img/vendy/research/header.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -329,8 +329,11 @@ header.masthead {
 .ban-res-2 {
   background: url("../img/vendy/research/mosched.jpg"); }
 
+.ban-res-3 {
+  background: url("../img/vendy/research/opencodes.jpg"); }
+
 .open-codes {
-  background: url("../img/vendy/research/mosched.jpg"); }
+  background: url("../img/vendy/research/street-dark.jpg"); }
 
 .banner {
   background-size: cover;
@@ -347,11 +350,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  height: 95vh; }
 
 .bg-concept1 {
   background-color: #216670; }
