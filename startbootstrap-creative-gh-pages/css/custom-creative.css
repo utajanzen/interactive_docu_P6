@@ -305,6 +305,13 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover; }
 
+.cambridge-header {
+  background-image: url("../img/vendy/research/gesetz.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 .research-sphear {
   background-image: url("../img/vendy/research/sphaere-theorie.png");
   padding-bottom: calc(10rem - 56px);

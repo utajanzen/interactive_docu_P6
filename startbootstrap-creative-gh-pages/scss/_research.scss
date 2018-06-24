@@ -9,6 +9,11 @@
     @include background-cover;
   }
 
+  .cambridge-header{
+    background-image: url('../img/vendy/research/gesetz.jpg');
+    @include background-cover;
+  }
+
   .research-sphear{
     background-image: url('../img/vendy/research/sphaere-theorie.png');
     padding-bottom: calc(10rem - 56px);
