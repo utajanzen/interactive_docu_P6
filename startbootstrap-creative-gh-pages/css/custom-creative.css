@@ -292,7 +292,21 @@ header.masthead {
       font-size: 22px; } }
 
 .research-header {
-  background-image: url("../img/vendy/research/header.png");
+  background-image: url("../img/vendy/research/header.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.technology-header {
+  background-image: url("../img/vendy/research/interviews-dark.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.cambridge-header {
+  background-image: url("../img/vendy/research/gesetz.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -320,14 +334,42 @@ header.masthead {
 
 .personal-data-list {
   width: 600px;
-  padding-left: 27%; }
+  padding-left: 5%; }
 
-.survey-results {
-  padding-left: 100px;
-  padding-top: 50px; }
-
+@media (min-width: 1024px) {
+  .survey-results {
+    padding-left: 100px;
+    padding-top: 100px; } }
+@media (max-width: 1023px) {
+  .survey-results {
+    padding-top: 70px; } }
 .ban-res-2 {
   background: url("../img/vendy/research/mosched.jpg"); }
+
+.ban-res-3 {
+  background: url("../img/vendy/research/opencodes.jpg"); }
+
+.ban-res-4 {
+  background: url("../img/vendy/research/cameras.jpg");
+  background-position: 70% 60% !important; }
+
+.ban-res-5 {
+  background: url("../img/vendy/research/technique.jpg"); }
+
+.object-tracking-img {
+  background: url("../img/vendy/research/doggo.png");
+  height: 100vh !important;
+  margin-top: 40px;
+  margin-bottom: 50px; }
+
+.object-tracking-img {
+  background: url("../img/vendy/research/doggo.png");
+  height: 100vh !important;
+  margin-top: 40px;
+  margin-bottom: 50px; }
+
+.open-codes {
+  background: url("../img/vendy/research/street-dark.jpg"); }
 
 .banner {
   background-size: cover;
@@ -337,9 +379,14 @@ header.masthead {
 
 .parallax {
   background-attachment: fixed;
-  background-position: center;
+  background-position: center; }
+
+.background-img {
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-position: center;
+  width: 100%;
+  height: auto; }
 
 .bg-concept1 {
   background-color: #216670; }
