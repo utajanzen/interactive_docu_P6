@@ -30,12 +30,23 @@
       padding-left: 5%;
   }
 
-  .survey-results{
-    padding-left: 100px;
-    padding-top: 50px;
+  @media (min-width: 1024px){
+      .survey-results{
+        padding-left: 100px;
+        padding-top: 100px
+
+      }
   }
 
+  @media (max-width: 1023px){
+      .survey-results{
+        padding-top: 70px
+    }
+  }
+
+
   .ban-res-2{
+
       background: url('../img/vendy/research/mosched.jpg');
   }
 
@@ -50,6 +61,13 @@
 
   .ban-res-5{
       background: url('../img/vendy/research/technique.jpg');
+  }
+
+  .object-tracking-img{
+      background: url('../img/vendy/research/doggo.png');
+      height: 100vh !important;
+      margin-top: 40px;
+      margin-bottom: 50px;
   }
 
   .object-tracking-img{
