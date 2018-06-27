@@ -10,12 +10,36 @@
   -o-background-size: cover;
   background-size: cover; }
 
+#datenwert {
+  padding-bottom: 70px !important; }
+
+.design-section .ux-header {
+  background-image: url("../img/vendy/design/interaktion-bsp-header.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 .design-section .ban-res-1 {
   background-image: url("../img/vendy/design/street.jpg"); }
 .design-section .project-img {
   background: url("../img/vendy/design/projektzeichnung.jpg");
-  height: 60vh !important;
+  height: 400px !important;
   margin-top: 40px;
+  margin-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: 100%; }
+.design-section .wooz-img-left {
+  background: url("../img/vendy/design/projektzeichnung.jpg");
+  height: 400px !important;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-right: 20px; }
+.design-section .wooz-img-right {
+  background: url("../img/vendy/design/projektzeichnung.jpg");
+  height: 400px !important;
+  margin-top: 15px;
   margin-bottom: 50px;
   background-repeat: no-repeat;
   background-size: 100%; }
