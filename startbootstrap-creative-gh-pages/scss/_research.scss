@@ -23,6 +23,25 @@
     padding-left: 5%;
 }
 
+.ban-res-2{
+    background: url('../img/vendy/research/mosched.jpg');
+}
+
+.ban-res-3{
+    background: url('../img/vendy/research/opencodes.jpg');
+}
+
+.ban-res-4{
+    background: url('../img/vendy/research/cameras.jpg');
+    background-position: 70% 60% !important;
+}
+
+.ban-res-5{
+    background: url('../img/vendy/research/technique.jpg');
+}
+
+
+/////////////////////
 .research-section{
 
   .technology-header{
@@ -50,25 +69,7 @@
     @include background-cover;
   }
 
-//CSS
-  .ban-res-2{
-      background: url('../img/vendy/research/mosched.jpg');
-  }
-
-  .ban-res-3{
-      background: url('../img/vendy/research/opencodes.jpg');
-  }
-
-  .ban-res-4{
-      background: url('../img/vendy/research/cameras.jpg');
-      background-position: 70% 60% !important;
-  }
-
-  .ban-res-5{
-      background: url('../img/vendy/research/technique.jpg');
-  }
-
-  .object-tracking-img{
+.object-tracking-img{
       background: url('../img/vendy/research/doggo.png');
       height: 100vh !important;
       margin-top: 40px;
