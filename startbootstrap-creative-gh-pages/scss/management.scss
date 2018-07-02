@@ -1,0 +1,29 @@
+
+
+.management-header{
+  background-image: url('../img/vendy/management/management1.jpg');
+  @include background-cover;
+}
+
+
+.bg-management1{
+  background-color: #FFED00;
+  padding: 5rem 0;
+}
+
+
+.valueProp {
+  color: fade-out($black, .4);
+  text-align: left;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.5rem;
+font-weight: 300;
+}
+
+.hervorheben {
+  color: fade-out($black, .4);
+  text-align: left;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1rem;
+  font-weight: 300;
+}

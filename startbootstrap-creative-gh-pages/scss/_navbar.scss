@@ -2,7 +2,7 @@
 
 .nav-2{
     margin-top: 64px !important;
-    background-color: brown !important;
+    background-color: #9BD5DF !important;
 }
 
 #mainNav {
@@ -19,13 +19,13 @@
   .nav-contact a.nav-link{
       border: 1px solid black;
       &:hover{
-          border: 1px solid #F05F40;
-          background-color: #F05F40;
+          border: 1px solid #216670;
+          background-color: #216670;
           color: #fff !important;
       }
   }
   .nav-contact a.nav-link.active{
-          border: 1px solid #f05f40;
+          border: 1px solid #216670;
       }
 
   #navMenue{
