@@ -1,0 +1,61 @@
+.design-header{
+  background-image: url('../img/vendy/design/design-header.jpg');
+  @include background-cover;
+}
+
+#datenwert{
+    padding-bottom: 70px !important;
+}
+
+.design-section{
+
+    .ux-header{
+      background-image: url('../img/vendy/design/interaktion-bsp-header.jpg');
+      @include background-cover;
+    }
+
+    .doku-header{
+      background-image: url('../img/vendy/design/open-book.jpg');
+      @include background-cover;
+    }
+
+    .ban-des-1{
+          background-image: url('../img/vendy/design/street.jpg');
+    }
+
+    .ban-des-2{
+        background: url('../img/vendy/design/projektzeichnung.jpg');
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    .ban-des-3{
+          background-image: url('../img/vendy/design/bath.jpg');
+          background-position: 100% 30% !important;
+    }
+
+    .wooz-img{
+        background: url('../img/vendy/design/wizardofoz-uta.jpg');
+        background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    }
+
+    .img-row{
+        margin-bottom: 20px;
+        display: inline-flex;
+    }
+
+    .font-example-roboto{
+        font-size: 25px !important;
+        font-family: 'Roboto', sans-serif;;
+    }
+
+    .font-example-source{
+        font-size: 25px !important;
+        font-family: 'Source Code Pro', sans-serif;
+    }
+
+
+}
