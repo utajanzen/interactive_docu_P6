@@ -1,23 +1,14 @@
 
-
 .bg-concept1{
   background-color: rgba(33,102,112,1);
 }
 
-.text-faded2 {
-  color: fade-out($white, .3);
-  text-align: left;
-  font-family: 'Roboto', sans-serif;
-font-weight: 100;
+.concept-header{
+  background-image: url('../img/vendy/concept/header.png');
+  width: 50em;
+  @include background-cover;
 }
 
-
-.text-muted2 {
-  color: fade-out($black, .4);
-  text-align: left;
-  font-family: 'Roboto', sans-serif;
-font-weight: 100;
-}
 
 .datencheck{
   padding-right: 20px;
@@ -68,4 +59,11 @@ font-weight: 100;
 
 	/** Unhide lightbox **/
 	display: block;
+}
+
+
+
+.carousel-control-prev-icon{
+margin-left: -170px;
+
 }
