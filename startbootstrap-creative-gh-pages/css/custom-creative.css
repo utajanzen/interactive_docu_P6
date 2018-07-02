@@ -240,6 +240,56 @@ img::-moz-selection {
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
             color: #216670; } }
 
+.design-header {
+  background-image: url("../img/vendy/design/design-header.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#datenwert {
+  padding-bottom: 70px !important; }
+
+.design-section .ux-header {
+  background-image: url("../img/vendy/design/interaktion-bsp-header.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+.design-section .doku-header {
+  background-image: url("../img/vendy/design/open-book.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+.design-section .ban-des-1 {
+  background-image: url("../img/vendy/design/street.jpg"); }
+.design-section .ban-des-2 {
+  background: url("../img/vendy/design/projektzeichnung.jpg");
+  margin-top: 40px;
+  margin-bottom: 50px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+.design-section .ban-des-3 {
+  background-image: url("../img/vendy/design/bath.jpg");
+  background-position: 100% 30% !important; }
+.design-section .wooz-img {
+  background: url("../img/vendy/design/wizardofoz-uta.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
+.design-section .img-row {
+  margin-bottom: 20px;
+  display: inline-flex; }
+.design-section .font-example-roboto {
+  font-size: 25px !important;
+  font-family: 'Roboto', sans-serif; }
+.design-section .font-example-source {
+  font-size: 25px !important;
+  font-family: 'Source Code Pro', sans-serif; }
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
@@ -428,6 +478,31 @@ header.masthead {
 .bg-technic1 {
   background-color: #2B4C9B;
   padding: 5rem 0; }
+
+.management-header {
+  background-image: url("../img/vendy/management/management1.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.bg-management1 {
+  background-color: #FFED00;
+  padding: 5rem 0; }
+
+.valueProp {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: left;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.5rem;
+  font-weight: 300; }
+
+.hervorheben {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: left;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1rem;
+  font-weight: 300; }
 
 .text-primary {
   color: #216670 !important; }
