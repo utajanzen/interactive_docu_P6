@@ -5,6 +5,10 @@
     background-color: #9BD5DF !important;
 }
 
+.logo-black{
+    display: none;
+}
+
 #mainNav {
   border-bottom: 1px solid fade-out($gray-900, .9);
   background-color: $white;
@@ -107,6 +111,12 @@
       background-color: $white;
       #navMenue{
           display: block;
+      }
+      .logo-black{
+          display: block;
+      }
+      .logo-white{
+          display: none;
       }
       .navbar-brand {
         color: $primary;

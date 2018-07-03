@@ -154,6 +154,9 @@ img::-moz-selection {
   margin-top: 64px !important;
   background-color: #9BD5DF !important; }
 
+.logo-black {
+  display: none; }
+
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
@@ -229,6 +232,10 @@ img::-moz-selection {
         background-color: #fff; }
         #mainNav.navbar-shrink #navMenue {
           display: block; }
+        #mainNav.navbar-shrink .logo-black {
+          display: block; }
+        #mainNav.navbar-shrink .logo-white {
+          display: none; }
         #mainNav.navbar-shrink .navbar-brand {
           color: #216670; }
           #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
