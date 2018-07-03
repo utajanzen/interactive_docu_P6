@@ -392,19 +392,24 @@ header.masthead {
 .ban-res-5 {
   background: url("../img/vendy/research/technique.jpg"); }
 
-.research-section .technology-header {
+.open-codes {
+  background: url("../img/vendy/research/street-dark.jpg"); }
+
+.technology-header {
   background-image: url("../img/vendy/research/interviews-dark.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-.research-section .cambridge-header {
+
+.cambridge-header {
   background-image: url("../img/vendy/research/gesetz.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-.research-section .research-sphear {
+
+.research-sphear {
   background-image: url("../img/vendy/research/sphaere-theorie.png");
   padding-bottom: calc(10rem - 56px);
   width: 100%;
@@ -416,20 +421,20 @@ header.masthead {
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 80%; }
-.research-section .research-sphear2 {
+
+.research-sphear2 {
   background-image: url("../img/vendy/research/sphaere2.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-.research-section .object-tracking-img {
+
+.object-tracking-img {
   background: url("../img/vendy/research/doggo.png");
   height: 100vh !important;
   margin-top: 40px;
   margin-bottom: 50px;
   background-repeat: no-repeat; }
-.research-section .open-codes {
-  background: url("../img/vendy/research/street-dark.jpg"); }
 
 .banner {
   background-size: cover;
