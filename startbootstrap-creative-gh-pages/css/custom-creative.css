@@ -559,6 +559,12 @@ header.masthead {
   margin-bottom: 50px;
   background-repeat: no-repeat; }
 
+/* line 80, /Users/Ninni/Documents/h_da/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_research.scss */
+.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 /* line 1, /Users/Ninni/Documents/h_da/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_elements.scss */
 .banner {
   background-size: cover;
