@@ -383,7 +383,6 @@ header.masthead {
   .survey-results {
     padding-top: 70px; } }
 .personal-data-list {
-  width: 600px;
   padding-left: 5%; }
 
 .ban-res-2 {
@@ -438,10 +437,11 @@ header.masthead {
 
 .object-tracking-img {
   background: url("../img/vendy/research/doggo.png");
-  height: 100vh !important;
   margin-top: 40px;
   margin-bottom: 50px;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 570px !important; }
 
 .banner {
   background-size: cover;
@@ -454,6 +454,11 @@ header.masthead {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px; }
 
 .bg-concept1 {
   background-color: #216670; }
