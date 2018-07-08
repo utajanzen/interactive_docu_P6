@@ -5,9 +5,14 @@
   @include background-cover;
 }
 
+.management-header2{
+  background-image: url('../img/vendy/management/marketing.jpg');
+  @include background-cover;
+}
+
 
 .bg-management1{
-  background-color: #FFED00;
+  background-color: #8B8A8A;
   padding: 5rem 0;
 }
 

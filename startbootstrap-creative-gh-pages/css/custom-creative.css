@@ -667,12 +667,20 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover; }
 
-/* line 9, /Users/Ninni/Documents/h_da/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_management.scss */
+/* line 8, /Users/Ninni/Documents/h_da/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_management.scss */
+.management-header2 {
+  background-image: url("../img/vendy/management/marketing.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 14, /Users/Ninni/Documents/h_da/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_management.scss */
 .bg-management1 {
-  background-color: #FFED00;
+  background-color: #8B8A8A;
   padding: 5rem 0; }
 
-/* line 15, /Users/Ninni/Documents/h_da/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_management.scss */
+/* line 20, /Users/Ninni/Documents/h_da/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_management.scss */
 .valueProp {
   color: rgba(0, 0, 0, 0.6);
   text-align: left;
@@ -680,7 +688,7 @@ header.masthead {
   font-size: 1.5rem;
   font-weight: 300; }
 
-/* line 23, /Users/Ninni/Documents/h_da/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_management.scss */
+/* line 28, /Users/Ninni/Documents/h_da/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_management.scss */
 .hervorheben {
   color: rgba(0, 0, 0, 0.6);
   text-align: left;
@@ -724,12 +732,20 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover; }
 
-/* line 9, /Users/Ninni/Documents/h_da/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_management.scss */
+/* line 8, /Users/Ninni/Documents/h_da/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_management.scss */
+.management-header2 {
+  background-image: url("../img/vendy/management/marketing.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 14, /Users/Ninni/Documents/h_da/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_management.scss */
 .bg-management1 {
-  background-color: #FFED00;
+  background-color: #8B8A8A;
   padding: 5rem 0; }
 
-/* line 15, /Users/Ninni/Documents/h_da/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_management.scss */
+/* line 20, /Users/Ninni/Documents/h_da/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_management.scss */
 .valueProp {
   color: rgba(0, 0, 0, 0.6);
   text-align: left;
@@ -737,7 +753,7 @@ header.masthead {
   font-size: 1.5rem;
   font-weight: 300; }
 
-/* line 23, /Users/Ninni/Documents/h_da/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_management.scss */
+/* line 28, /Users/Ninni/Documents/h_da/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_management.scss */
 .hervorheben {
   color: rgba(0, 0, 0, 0.6);
   text-align: left;
