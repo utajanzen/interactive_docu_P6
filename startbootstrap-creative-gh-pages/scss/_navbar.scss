@@ -3,10 +3,27 @@
 .nav-2{
     margin-top: 64px !important;
     background-color: #9BD5DF !important;
+    height: 30px;
+
+    .nav-main-link{
+        font-size: 16px !important;
+    }
+
+    ul li a{
+            font-size: 12px !important;
+    }
 }
 
 .logo-black{
     display: none;
+}
+
+.arrow-left a img{
+    float: right;
+}
+
+.arrow-right a img{
+    float: left;
 }
 
 #mainNav {
@@ -21,11 +38,11 @@
   }
 
   .nav-contact a.nav-link{
-      border: 1px solid black;
+       border: 1px solid white;
       &:hover{
-          border: 1px solid #216670;
-          background-color: #216670;
-          color: #fff !important;
+          border: 1px solid #fff;
+          background-color: #fff;
+          color: #000 !important;
       }
   }
   .nav-contact a.nav-link.active{
@@ -34,25 +51,12 @@
 
   #navMenue{
       display: none;
+      width: 100%;
   }
 
-
-  /* Show the dropdown menu on hover */
-  .drop-down{
-      position: absolute;
-      padding: 13px 10px 13px 10px;
-        top: 0;
-        left: 45%;
+  .nav-item{
+     width: 100%;
   }
-
-  .drop-down-content{
-      display: none;
-  }
-
-  .drop-down:hover .drop-down-content {display: block;}
-
-  .drop-down-content:hover {display: block;}
-
 
   //template
   .navbar-brand {
@@ -125,11 +129,13 @@
           color: darken($primary, .1);
         }
       }
+
+
       .navbar-nav > li.nav-item > a.nav-link,
       .navbar-nav > li.nav-item > a.nav-link:focus {
         color: $gray-900;
         &:hover {
-          color: $primary;
+          color: #000 !important;
         }
       }
     }
