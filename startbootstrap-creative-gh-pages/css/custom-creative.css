@@ -665,8 +665,37 @@ header.masthead {
 
 /* line 7, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_technic.scss */
 .bg-technic1 {
-  background-color: #2B4C9B;
+  background-color: #6884C2;
   padding: 5rem 0; }
+
+/* line 12, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_technic.scss */
+.ban-te-1 {
+  background: url("../img/vendy/technic/3DQuerschnitt.jpg"); }
+
+/* line 16, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_technic.scss */
+.ban-te-2 {
+  background: url("../img/vendy/technic/ListeDatenauswertung.png");
+  background-size: 40%; }
+
+/* line 21, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_technic.scss */
+.ban-te-3 {
+  background: url("../img/vendy/technic/Prototyp.png"); }
+
+/* line 27, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_technic.scss */
+.parallax3 {
+  /* The image used */
+  /* Set a specific height */
+  height: 60vh;
+  width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+/* line 42, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_technic.scss */
+.thumbnail2 {
+  max-width: 49%; }
 
 /* line 3, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_management.scss */
 .management-header {
