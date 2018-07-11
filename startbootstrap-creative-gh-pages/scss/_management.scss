@@ -30,9 +30,57 @@ font-weight: 300;
   text-align: left;
   font-family: 'Source Code Pro', monospace;
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 600;
 }
 
+.hervorheben2 {
+  color: fade-out($black, .4);
+  text-align: left;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.ban-ma-2{
+    background: url('../img/vendy/management/beachhead.jpg');
+}
+
+.ban-ma-1{
+    background: url('../img/vendy/management/ralf.jpg');
+    height: 1100vh;
+}
+.ban-ma-3{
+    background: url('../img/vendy/management/value.jpg');
+}
+.ban-ma-4{
+    background: url('../img/vendy/management/marketing.jpg');
+}
+
+.ban-ma-5{
+    background: url('../img/vendy/management/LTV2.jpg');
+}
+
+.ban-ma-6{
+    background: url('../img/vendy/management/MVP.jpg');
+}
+
+
+
+
+
+.parallax2 {
+    /* The image used */
+    // background-image: url("../img/vendy/management/beachhead.jpg");
+
+    /* Set a specific height */
+    height: 60vh;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .thumbnail {
   max-width: 40%;
