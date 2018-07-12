@@ -5,8 +5,8 @@
 		"../scss/index.scss"
 	],
 	"sourcesContent": [
-		".portrait{\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 20px;\n  width: 15em;\n}\n\nvendyA {\n    animation: mymove 5s infinite;\n}\n"
+		".portrait{\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 20px;\n  width: 15em;\n}\n\n.start-header{\n  background-image: url('../img/vendy/trailer/logo-gif_00097.gif');\n  \n}\n"
 	],
-	"mappings": ";AAAA,AAAA,SAAS,CAAA;EACP,WAAW,EAAE,IAAK;EAClB,YAAY,EAAE,IAAK;EACnB,aAAa,EAAE,IAAK;EACpB,KAAK,EAAE,IAAK;CACb;;;AAED,AAAA,MAAM,CAAC;EACH,SAAS,EAAE,kBAAmB;CACjC",
+	"mappings": ";AAAA,AAAA,SAAS,CAAA;EACP,WAAW,EAAE,IAAK;EAClB,YAAY,EAAE,IAAK;EACnB,aAAa,EAAE,IAAK;EACpB,KAAK,EAAE,IAAK;CACb;;;AAED,AAAA,aAAa,CAAA;EACX,gBAAgB,EAAE,8CAAG;CAEtB",
 	"names": []
 }

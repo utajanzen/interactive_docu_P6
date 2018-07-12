@@ -7,8 +7,8 @@
 }
 
 /* line 8, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/index.scss */
-vendyA {
-  animation: mymove 5s infinite;
+.start-header {
+  background-image: url("../img/vendy/trailer/logo-gif_00097.gif");
 }
 
 /*# sourceMappingURL=../css/index.map */

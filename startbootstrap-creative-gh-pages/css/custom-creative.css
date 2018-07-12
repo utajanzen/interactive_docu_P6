@@ -1268,8 +1268,12 @@ header.masthead h1 {
 }
 
 /* line 8, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/index.scss */
-vendyA {
-  animation: mymove 5s infinite;
+.start-header {
+  background-image: url("../img/vendy/trailer/logo-gif_00097.gif");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=../css/custom-creative.map */
