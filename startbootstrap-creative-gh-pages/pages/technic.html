@@ -289,7 +289,31 @@
                        <br></br>
                        <p class="h5-black">Verwendete Technologien – Visuelle Verarbeitung durch vvvv</p>
                        <p class="text-muted2 text-left mb-4">
-                         Text fehlt
+                        vvvv wurde als Schnittstelle aller verwendeten Technologien eingesetzt, sowie zur visuellen Darstellung des Schattens und der gesammelten Daten
+                      </p>
+                          <p class="h6-black">vvvv als Schnittstelle</p>
+                          <p class="text-muted2 text-left mb-4">
+                            Dank der vielseitigen Nodes, aus denen sich die Patches in vvvv zusammenbauen lassen, kann das Team die SQLite-Datenbank mit den getrackten MAC-Adressen auslesen, um sie visuell zu verarbeiten.
+                            <br></br>
+                            Als Teil der XBox-Produktfamilie wurde die Kinect als Eingabegerät für Spiele entwickelt und kann mittlerweile sehr zuverlässig Spieler erkennen. Eine Unterscheidung der einzelnen Spieler ist ebenfalls möglich. Dank der ”Player”-Node kann eine Person samt Umrissen erkannt und vom Hintergrund abgegrenzt werden.
+                            <br></br>
+                            Die Kinect 2 kann darüber hinaus die Bewegungen des Nutzers tracken. Dafür verwendet sie ein Skelett, welches 25 “Joints” über Gelenke und Körperteile (bzw. Kopf, Füße oder Handgelenke) des Nutzers legt und ihnen dabei Positionsdaten (Höhe, Breite, Tiefe) zuordnet.
+                            <br></br>
+                            Dank der “Skeleton”-Node werden diese Positionsdaten an vvvv geliefert und können mit anderen durch vvvv erzeugten Objekten interagieren.
+                            <br></br>
+                            Zu guter Letzt dient vvvv als Verbindungsglied dreier Bildschirme: ein Monitor, um die Anwendung zu steuern, sowie zwei Beamer, auf denen die Daten dem Nutzer präsentiert werden.
+                          </p>
+                          <p class="h6-black">vvvv als Plattform der Datenverarbeitung und visuellen Darstellung</p>
+                          <p class="text-muted2 text-left mb-4">
+                            Die Zeitstempel, die die ESPs jeder MAC-Adresse zuordnen und in die Datenbank schreiben, werden in Kombination mit einer Fußspur-Animation dem Nutzer als Bewegungsdaten angezeigt. Der vvvv-Renderer wirft das Bild dafür auf den Beamer, welcher von oben herab auf den Boden ausgerichtet ist. Dadurch erscheint das Bild folglich zu den Füßen des Nutzers.
+                            <br></br>
+                            Dank der Spielererkennung der Kinect kann der Umriss des Nutzers als weißer Schatten auf der Wand-Projektion erst dargestellt, dann aufgenommen (die “Writer”-Node nimmt 60 Frames pro Sekunde auf) und zuletzt wiedergegeben werden.
+                            <br></br>
+                            Die Skeleton-Node berechnet anhand der Position des Kopfes, des rechten Fuß und dem Abstand zwischen Schulter und Kopf die ungefähre Körpergröße des Nutzers. Diese wird zusammen mit Geschlecht und Haarfarbe dem Nutzer angezeigt, wobei diese beiden Daten händisch von einem Teammitglied im Patch eingegeben werden müssen.
+                            <br></br>
+                            vvvv stellt nach Beendigung der Aufnahme des Nutzers alle gesammelten Datenpakete (Körpergröße, Geschlecht, Haarfarbe und die letzten drei Bewegungsdaten) als Blasen dar, die um den Spieler-Schatten kreisen.
+                            <br></br>
+                            Die Kinect liefert die Bewegung der rechten Hand und vvvv erkennt anhand dieser, ob Datenblasen berührt wurden oder nicht. Wenn dies geschieht, verschwindet die Blase (und der Nutzer erhält seine Datenpaket zurück). Das Minispiel und damit die gesamte Interaktion endet, sobald alle Datenblasen gefangen wurden.
                        </p>
                        <p style="margin-top: -40px;" class="author-black">Raphael Herres</p>
               </div>
@@ -339,6 +363,8 @@
           </div>
         </section>
 
+        <div class="parallax3 ban-te-4">
+        </div>
 
         <section  id="TechnischeRisiken">
           <div class="container">

@@ -80,7 +80,7 @@ h1, h2 {
   color: rgba(255, 255, 255, 0.7);
   text-align: left;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 /* line 77, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
@@ -411,7 +411,12 @@ img::-moz-selection {
   padding-bottom: 70px !important;
 }
 
-/* line 16, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
+/* line 14, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
+.bg-design {
+  background-color: #FBDCDC;
+}
+
+/* line 20, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
 .design-section .ux-header {
   background-image: url("../img/vendy/design/interaktion-bsp-header.jpg");
   -webkit-background-size: cover;
@@ -420,7 +425,7 @@ img::-moz-selection {
   background-size: cover;
 }
 
-/* line 21, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
+/* line 25, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
 .design-section .doku-header {
   background-image: url("../img/vendy/design/open-book.jpg");
   -webkit-background-size: cover;
@@ -429,12 +434,12 @@ img::-moz-selection {
   background-size: cover;
 }
 
-/* line 26, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
+/* line 30, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
 .design-section .ban-des-1 {
   background-image: url("../img/vendy/design/street.jpg");
 }
 
-/* line 30, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
+/* line 34, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
 .design-section .ban-des-2 {
   background: url("../img/vendy/design/projektzeichnung.jpg");
   margin-top: 40px;
@@ -445,13 +450,23 @@ img::-moz-selection {
   background-size: cover;
 }
 
-/* line 37, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
+/* line 41, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
 .design-section .ban-des-3 {
   background-image: url("../img/vendy/design/bath.jpg");
   background-position: 100% 30% !important;
 }
 
-/* line 42, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
+/* line 46, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
+.design-section .ban-des-4 {
+  background-image: url("../img/vendy/design/interaktion-bsp-header.jpg");
+}
+
+/* line 51, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
+.design-section .ban-des-5 {
+  background-image: url("../img/vendy/design/doku2.jpg");
+}
+
+/* line 56, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
 .design-section .wooz-img {
   background: url("../img/vendy/design/wizardofoz-uta.jpg");
   background-size: cover;
@@ -459,19 +474,19 @@ img::-moz-selection {
   background-position: center;
 }
 
-/* line 51, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
+/* line 65, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
 .design-section .img-row {
   margin-bottom: 20px;
   display: inline-flex;
 }
 
-/* line 57, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
+/* line 71, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
 .design-section .font-example-roboto {
   font-size: 25px !important;
   font-family: 'Roboto', sans-serif;
 }
 
-/* line 62, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
+/* line 76, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_design.scss */
 .design-section .font-example-source {
   font-size: 25px !important;
   font-family: 'Source Code Pro', sans-serif;
@@ -852,9 +867,13 @@ header.masthead h1 {
   background: url("../img/vendy/technic/Prototyp.png");
 }
 
-/* line 27, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_technic.scss */
+/* line 26, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_technic.scss */
+.ban-te-4 {
+  background: url("../img/vendy/technic/Risiken.jpg");
+}
+
+/* line 31, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_technic.scss */
 .parallax3 {
-  /* The image used */
   /* Set a specific height */
   height: 60vh;
   width: 100%;
@@ -865,7 +884,7 @@ header.masthead h1 {
   background-size: 100%;
 }
 
-/* line 42, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_technic.scss */
+/* line 45, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_technic.scss */
 .thumbnail2 {
   max-width: 49%;
 }
@@ -1238,6 +1257,19 @@ header.masthead h1 {
 .section-heading2 {
   margin-top: 0;
   color: #FFFFFF;
+}
+
+/* line 1, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/index.scss */
+.portrait {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 15em;
+}
+
+/* line 8, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/index.scss */
+vendyA {
+  animation: mymove 5s infinite;
 }
 
 /*# sourceMappingURL=../css/custom-creative.map */

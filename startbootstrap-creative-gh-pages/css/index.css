@@ -1,0 +1,14 @@
+/* line 1, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/index.scss */
+.portrait {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 15em;
+}
+
+/* line 8, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/index.scss */
+vendyA {
+  animation: mymove 5s infinite;
+}
+
+/*# sourceMappingURL=../css/index.map */
