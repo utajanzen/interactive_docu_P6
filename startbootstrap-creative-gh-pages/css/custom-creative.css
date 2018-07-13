@@ -26,19 +26,19 @@ footer {
   display: block;
 }
 
-/* line 27, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 28, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 hr {
   max-width: 50px;
   border-width: 3px;
   border-color: #216670;
 }
 
-/* line 33, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 34, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 hr.light {
   border-color: #fff;
 }
 
-/* line 37, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 38, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 a {
   color: #216670;
   -webkit-transition: all 0.2s;
@@ -46,12 +46,12 @@ a {
   transition: all 0.2s;
 }
 
-/* line 40, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 41, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 a:hover {
   color: #216670;
 }
 
-/* line 46, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 47, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 h3,
 h4,
 h5,
@@ -59,28 +59,28 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* line 53, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 54, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 h1, h2 {
   font-family: 'Source Code Pro', monospace;
 }
 
-/* line 61, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 62, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 .bg-primary {
   background-color: #216670 !important;
 }
 
-/* line 65, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 66, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 .bg-dark {
   background-color: #212529 !important;
 }
 
-/* line 69, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 70, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
   text-align: left;
 }
 
-/* line 74, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 75, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 .text-faded2 {
   color: rgba(255, 255, 255, 0.7);
   text-align: left;
@@ -88,7 +88,7 @@ h1, h2 {
   font-weight: 100;
 }
 
-/* line 81, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 82, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 .text-muted2 {
   color: rgba(0, 0, 0, 0.6);
   text-align: left;
@@ -96,73 +96,73 @@ h1, h2 {
   font-weight: 300;
 }
 
-/* line 90, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 91, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 .question-mark {
   font-size: 20px;
   font-weight: bold;
 }
 
-/* line 95, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 96, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 section {
   padding: 8rem 0;
 }
 
-/* line 100, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 101, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 .section-heading {
   margin-top: 0;
 }
 
-/* line 105, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 106, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 ::-moz-selection {
   color: #fff;
   background: #212529;
   text-shadow: none;
 }
 
-/* line 111, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 112, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 ::selection {
   color: #fff;
   background: #212529;
   text-shadow: none;
 }
 
-/* line 117, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 118, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 img::selection {
   color: #fff;
   background: transparent;
 }
 
-/* line 122, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 123, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 img::-moz-selection {
   color: #fff;
   background: transparent;
 }
 
-/* line 128, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 129, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 .link-white {
   color: white;
   font-size: 12px;
 }
 
-/* line 131, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 132, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 .link-white:hover {
   font-size: 14px;
   color: #fff;
 }
 
-/* line 137, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 138, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 .link-black {
   color: #000000;
   font-size: 12px;
 }
 
-/* line 140, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 141, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 .link-black:hover {
   font-size: 14px;
   color: #000000;
 }
 
-/* line 146, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 147, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 .h5-white {
   color: rgba(255, 255, 255, 0.7);
   font-size: 25px;
@@ -172,14 +172,14 @@ img::-moz-selection {
   font-family: 'Roboto', sans-serif;
 }
 
-/* line 154, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 155, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 .h5-black {
   color: #000;
   font-size: 20px;
   font-weight: bold;
 }
 
-/* line 160, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 161, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 .h5-black {
   color: rgba(0, 0, 0, 0.6);
   font-size: 25px;
@@ -189,7 +189,7 @@ img::-moz-selection {
   font-family: 'Roboto', sans-serif;
 }
 
-/* line 169, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 170, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 .h6-black {
   color: rgba(0, 0, 0, 0.6);
   font-size: 20px;
@@ -199,7 +199,7 @@ img::-moz-selection {
   font-family: 'Roboto', sans-serif;
 }
 
-/* line 180, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 181, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 .author-white {
   text-align: right;
   font-size: 14px;
@@ -210,7 +210,7 @@ img::-moz-selection {
   font-weight: 300;
 }
 
-/* line 190, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
+/* line 191, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_global.scss */
 .author-black {
   text-align: right;
   font-size: 14px;
@@ -874,7 +874,7 @@ header.masthead h1 {
 
 /* line 21, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_technic.scss */
 .ban-te-3 {
-  background: url("../img/vendy/technic/Prototyp.png");
+  background: url("../img/vendy/technic/banner_prototyp.jpg");
 }
 
 /* line 26, /Users/Ninni/Documents/h_da/interaktiveDoku/interactive_docu_P6-master/Doku/startbootstrap-creative-gh-pages/scss/_technic.scss */
