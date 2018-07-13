@@ -1,22 +1,11 @@
 // Styling for the navbar
 
-.nav-2{
-    margin-top: 64px !important;
-    background-color: #9BD5DF !important;
-    height: 30px;
-
-    .nav-main-link{
-        font-size: 16px !important;
-    }
-
-    ul li a{
-            font-size: 12px !important;
-    }
+.nav-page{
+    font-size: 20px!important;
+    margin-bottom: 5px;
+    margin-top: -4px;
 }
 
-.logo-black{
-    display: none;
-}
 
 .arrow-left a img{
     float: right;
@@ -34,29 +23,32 @@
 
 //eigenes css
   .main-nav{
-      text-align: center
+      text-align: center;
+      padding-top: 10px;
   }
 
-  .nav-contact a.nav-link{
-       border: 1px solid white;
-      &:hover{
-          border: 1px solid #fff;
-          background-color: #fff;
-          color: #000 !important;
-      }
-  }
+
   .nav-contact a.nav-link.active{
           border: 1px solid #216670;
       }
 
   #navMenue{
-      display: none;
+
       width: 100%;
+  }
+
+  .toggle-nav{
+      display: none;
+  }
+
+  header.active button .toggle-nav{
+//      top: 110px !important;
   }
 
   .nav-item{
      width: 100%;
   }
+
 
   //template
   .navbar-brand {
@@ -69,6 +61,8 @@
       color: darken($primary, .1);
     }
   }
+
+
   .navbar-nav {
     > li.nav-item {
        > a.nav-link,
@@ -100,9 +94,7 @@
         color: $white;
       }
     }
-    .navbar-nav > li.nav-item > a.nav-link {
-      padding: 0.5rem 1rem;
-    }
+
     .navbar-nav > li.nav-item > a.nav-link,
     .navbar-nav > li.nav-item > a.nav-link:focus {
       color: fade-out($white, .3);
@@ -113,9 +105,13 @@
     &.navbar-shrink {
       border-bottom: 1px solid fade-out($gray-900, .9);
       background-color: $white;
-      #navMenue{
+
+      .toggle-nav{
           display: block;
+          margin-top: 10px;
       }
+
+
       .logo-black{
           display: block;
       }
@@ -131,13 +127,73 @@
       }
 
 
+        .nav-contact a.nav-link{
+             border: 1px solid black;
+            &:hover{
+                border: 1px solid #000;
+                background-color: #000;
+                color: #fff !important;
+            }
+        }
+
       .navbar-nav > li.nav-item > a.nav-link,
       .navbar-nav > li.nav-item > a.nav-link:focus {
         color: $gray-900;
-        &:hover {
-          color: #000 !important;
-        }
+
       }
     }
   }
+
+  .drop-down{
+      width: 100%;
+  }
+
+  //navbarResponsive
+  @media (max-width: 1191px){
+          li.nav-item > a.nav-link {
+            padding: 0.5rem 0.7rem;
+            font-size: 13px!important;
+        }
+    }
+
+  @media (min-width: 1192px){
+        .navbar-nav > li.nav-item > a.nav-link {
+          padding: 0.5rem 1rem;
+        }
+    }
+
+    @media (min-width: 1024px){
+        .logo-black{
+            display: none;
+        }
+        .nav-contact a.nav-link{
+             border: 1px solid white;
+            &:hover{
+                border: 1px solid #fff;
+                background-color: #fff;
+                color: #000 !important;
+            }
+        }
+      }
+
+      @media (max-width: 1023px){
+          .logo-black{
+              display: block;
+          }
+          .logo-white{
+              display: none;
+          }
+          .nav-contact a.nav-link{
+               border: 1px solid black;
+          }
+          .nav-contact{
+              text-align: center;
+              width: 90px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 20px;
+              margin-bottom: 20px;
+          }
+
+        }
 }
