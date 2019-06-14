@@ -1,0 +1,122 @@
+
+
+.management-header{
+  background-image: url('../img/vendy/management/management-header.jpg');
+  @include background-cover;
+}
+
+.management-header2{
+  background-image: url('../img/vendy/management/marketing.jpg');
+  @include background-cover;
+}
+
+
+.bg-management1{
+  background-color: #D9D9D9;
+  padding: 5rem 0;
+}
+
+
+.valueProp {
+  color: fade-out($black, .4);
+  text-align: left;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.5rem;
+font-weight: 300;
+}
+
+.hervorheben {
+  color: fade-out($black, .4);
+  text-align: left;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.hervorheben2 {
+  color: fade-out($black, .4);
+  text-align: left;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.ban-ma-2{
+    background: url('../img/vendy/management/beachhead.jpg');
+}
+
+.ban-ma-1{
+    background: url('../img/vendy/management/ralf.jpg');
+    height: 1100vh;
+}
+.ban-ma-3{
+    background: url('../img/vendy/management/value.jpg');
+}
+.ban-ma-4{
+    background: url('../img/vendy/management/marketing.jpg');
+}
+
+.ban-ma-5{
+    background: url('../img/vendy/management/LTV2.jpg');
+}
+
+.ban-ma-6{
+    background: url('../img/vendy/management/MVP.jpg');
+}
+
+
+
+
+
+.parallax2 {
+    /* The image used */
+    // background-image: url("../img/vendy/management/beachhead.jpg");
+
+    /* Set a specific height */
+    height: 60vh;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thumbnail {
+  max-width: 40%;
+}
+
+.italic { font-style: italic; }
+.small { font-size: 0.8em; }
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: auto;
+	margin-top: 2%;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}

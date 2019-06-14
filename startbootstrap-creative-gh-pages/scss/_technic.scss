@@ -1,0 +1,44 @@
+.technic-header{
+  background-image: url('../img/vendy/technic/technic-header.jpg');
+  @include background-cover;
+}
+
+
+.bg-technic1{
+  background-color: #6884C2;
+  padding: 5rem 0;
+}
+
+.ban-te-1{
+    background: url('../img/vendy/technic/3DQuerschnitt.jpg');
+}
+
+.ban-te-2{
+    background: url('../img/vendy/technic/ListeDatenauswertung.png');
+    background-size: 40%;
+}
+
+.ban-te-3{
+  // BILD ERSETZTEN
+    background: url('../img/vendy/technic/Prototyp.png');
+}
+
+
+.parallax3 {
+    /* The image used */
+    // background-image: url("../img/vendy/management/beachhead.jpg");
+
+    /* Set a specific height */
+    height: 60vh;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.thumbnail2 {
+  max-width: 49%;
+}

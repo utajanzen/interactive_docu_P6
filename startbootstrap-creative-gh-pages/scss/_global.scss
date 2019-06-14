@@ -67,6 +67,22 @@ h6{
   text-align: left;
 }
 
+.text-faded2 {
+  color: fade-out(#FFFFFF, .3);
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+font-weight: 300;
+}
+
+.text-muted2 {
+  color: fade-out($black, .4);
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+font-weight: 300;
+}
+
+
+
 .question-mark{
     font-size: 20px;
     font-weight: bold;
@@ -75,6 +91,7 @@ h6{
 section {
   padding: 8rem 0;
 }
+
 
 .section-heading {
   margin-top: 0;
@@ -145,6 +162,16 @@ img::-moz-selection {
     font-family: 'Roboto', sans-serif;
 }
 
+.h6-black{
+  color:fade-out($black, .4);
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
 
 .author-white{
     text-align: right;
@@ -153,7 +180,7 @@ img::-moz-selection {
     padding-top: 20px;
     font-style: italic;
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .author-black{
@@ -163,5 +190,5 @@ img::-moz-selection {
     padding-top: 20px;
     font-style: italic;
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
 }
